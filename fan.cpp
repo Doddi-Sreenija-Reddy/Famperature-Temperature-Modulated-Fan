@@ -14,7 +14,7 @@ void setup()
     digitalWrite(IN1, HIGH);
     digitalWrite(IN2, LOW);
     analogWriteRange(255);
-    updateSpeed(128);
+    updateSpeed(129);
     Serial.begin(9600);
     Serial.println("Motor Started");
 }
