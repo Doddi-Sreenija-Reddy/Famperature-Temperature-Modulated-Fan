@@ -16,7 +16,7 @@ void setup()
     analogWriteRange(255);
     updateSpeed(129);
     Serial.begin(9600);
-    Serial.println("Motor Started");
+    Serial.println("Motor Started with inital speed");
 }
 void loop()
 {
